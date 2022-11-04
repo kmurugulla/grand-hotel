@@ -1,7 +1,9 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
+  background-color:  #1c1c1c;
   font-size: var(--body-font-size-s);
+  margin-left: 8rem;
+  color: #eee;
 }
 
 footer .footer {
@@ -9,6 +11,21 @@ footer .footer {
   margin: auto;
 }
 
+footer .upper > div > div:last-of-type > p:first-of-type{
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: goldenrod;
+  margin: 1rem 0 3rem 0;
+}
+
+footer .upper > div > div:last-of-type > p:last-of-type{
+ border: 3px solid red;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr ;
+ grid-gap: 1rem;
+ width: 60rem;
+}
 footer .footer p {
   margin: 0;
 }
